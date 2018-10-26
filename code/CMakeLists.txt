@@ -11,7 +11,7 @@ include(FindPNG)
 include_directories(${PNG_INCLUDE_DIR})
 
 # LUA and Torch
-include_directories(/usr/include/lua5.1)
+include_directories(/usr/include/lua5.3)
 include_directories(~/lib/torch/install/include/)
 link_directories(~/lib/torch/install/lib/)
 
