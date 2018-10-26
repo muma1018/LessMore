@@ -77,4 +77,4 @@ add_executable(test_ransac
 target_link_libraries(train_obj ${PNG_LIBRARY} ${OpenCV_LIBS} luajit) 
 target_link_libraries(train_ransac ${PNG_LIBRARY} ${OpenCV_LIBS} luajit) 
 target_link_libraries(train_repro ${PNG_LIBRARY} ${OpenCV_LIBS} luajit) 
-target_link_libraries(test_ransac ${PNG_LIBRARY} ${OpenCV_LIBS})
+target_link_libraries(test_ransac ${PNG_LIBRARY} ${OpenCV_LIBS} luajit)
